@@ -32,4 +32,7 @@ This repository only contains commands related to GIT
 - To remove a file from being tracked by git :
     *   **git rm path-to-filename**
     *   **git rm --cached path-to-filename** (To remove file that has been staged) 
+- To rename file in git :
+    * **git mv file_from file_to**
+    
     
