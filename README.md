@@ -34,5 +34,26 @@ This repository only contains commands related to GIT
     *   **git rm --cached path-to-filename** (To remove file that has been staged) 
 - To rename file in git :
     * **git mv file_from file_to**
+- VIEWING GIT COMMIT HISTORY :
+    * **git log -p -2** : -p shows difference introduced in each commit, -2 limits output to only last two commits
+    * **git log --stat** : gives out some abbreviated stats for each commit
+    * **git log --pretty=oneline
+    * **git log --graph** : gives a ascii graph representation of branch and merge history
+- UNDOING THINGS :
+    * When you commit too early and forgot to add some files :
+    * **git commit --amend**
+    SCENARIO :<br> 
+    1 . Made a commit using : git commit -m "Initial commit"<br>
+    2 . Forgot to add file : git add forgot_file <br>
+    3 . Amend comit : git commit --amend <br>
+    Ends up with single commit second commit replaces result of first .<br>
+- UNSTAGING STAGED FILES :
+    * Lets say we added all files that are changed in our working directory using **git add .**, later on realized one of the<br>
+    staged file needs to be unstaged or is not required to commit .
+    * **git reaset HEAD <file_name>** 
+- TO REPLACE FILE WITH HEAD REVISION :
+    * **git checkout -- path_to_file_replacement**
+    
+        
     
     
