@@ -27,3 +27,6 @@ This repository only contains commands related to GIT
 - **git diff** [differentiates between working directory & staging directory]
 - **git diff --staged** [differentiates between staged changes and last commit]
 - [GIT DIFF EXPLAINATION](https://stackoverflow.com/questions/3686452/what-are-the-differences-between-these-git-diff-commands/3686507#3686507)
+- In order to directly commit changes without adding to staging area it can be done using :
+    *   **git add -a -m "commit message"**
+    
