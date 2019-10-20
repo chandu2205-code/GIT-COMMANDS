@@ -29,4 +29,7 @@ This repository only contains commands related to GIT
 - [GIT DIFF EXPLAINATION](https://stackoverflow.com/questions/3686452/what-are-the-differences-between-these-git-diff-commands/3686507#3686507)
 - In order to directly commit changes without adding to staging area it can be done using :
     *   **git add -a -m "commit message"**
+- To remove a file from being tracked by git :
+    *   **git rm path-to-filename**
+    *   **git rm --cached path-to-filename** (To remove file that has been staged) 
     
