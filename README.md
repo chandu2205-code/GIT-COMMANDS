@@ -1,6 +1,10 @@
 # GIT-COMMANDS
 This repository only contains commands related to GIT
 
+**Good Reads :**<br>
+1 . [Kernel](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/gittutorial.html)    
+
+----------------------------------------------Git Commands--------------------------------------------------------
 - **git config --list**
 - **git config user.name="type your name here"**
 - **git config user.email="enter your email here"**
