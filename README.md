@@ -56,6 +56,9 @@ This repository only contains commands related to GIT
 - SHOWING REMOTES :
     * **git remote**    : Lists shortname of all remote servers handled .
     * **git remote -v** : Lists URLs for shortnsmes git has configured .
+- ADDING GIT REMOTE :
+    * **git remote add <remote_name> <remote_URL>** : In order to add new remote wiht name and url .
+    
     
         
     
