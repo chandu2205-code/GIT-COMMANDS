@@ -37,7 +37,7 @@ This repository only contains commands related to GIT
 - VIEWING GIT COMMIT HISTORY :
     * **git log -p -2** : -p shows difference introduced in each commit, -2 limits output to only last two commits
     * **git log --stat** : gives out some abbreviated stats for each commit
-    * **git log --pretty=oneline
+    * **git log --pretty=oneline**
     * **git log --graph** : gives a ascii graph representation of branch and merge history
 - UNDOING THINGS :
     * When you commit too early and forgot to add some files :
