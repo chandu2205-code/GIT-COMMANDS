@@ -58,6 +58,10 @@ This repository only contains commands related to GIT
     * **git remote -v** : Lists URLs for shortnsmes git has configured .
 - ADDING GIT REMOTE :
     * **git remote add <remote_name> <remote_URL>** : In order to add new remote wiht name and url .
+- FETCHING AND PULLING FROM YOUR REMOTES :
+    * **git fetch <remote_name>** : Automatically fetches any new work that has been to remote since last update, but it doesnt 
+    merge with any of your work .
+    * **git pull** : It is used to automatically fetcha and merge
     
     
         
