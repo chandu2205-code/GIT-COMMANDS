@@ -53,6 +53,9 @@ This repository only contains commands related to GIT
     * **git reset HEAD <file_name>** 
 - TO REPLACE FILE WITH HEAD REVISION :
     * **git checkout -- path_to_file_replacement**
+- SHOWING REMOTES :
+    * **git remote**    : Lists shortname of all remote servers handled .
+    * **git remote -v** : Lists URLs for shortnsmes git has configured .
     
         
     
