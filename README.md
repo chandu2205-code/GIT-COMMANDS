@@ -31,7 +31,7 @@ This repository only contains commands related to GIT
     *   **git add -a -m "commit message"**
 - To remove a file from being tracked by git :
     *   **git rm path-to-filename**
-    *   **git rm --cached path-to-filename** (To remove file that has been staged) 
+    *   **git rm --cached path-to-filename** (To remove file that has been staged and will be untracked by git) 
 - To rename file in git :
     * **git mv file_from file_to**
 - VIEWING GIT COMMIT HISTORY :
