@@ -62,6 +62,8 @@ This repository only contains commands related to GIT
     * **git fetch <remote_name>** : Automatically fetches any new work that has been to remote since last update, but it doesnt 
     merge with any of your work .
     * **git pull** : It is used to automatically fetcha and merge
+- PUSHING TO YOUR REMOTES :
+    * **git push <remote_name> <branch_name>** : 
     
     
         
