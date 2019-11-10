@@ -64,6 +64,9 @@ This repository only contains commands related to GIT
     * **git pull** : It is used to automatically fetcha and merge
 - PUSHING TO YOUR REMOTES :
     * **git push <remote_name> <branch_name>** : 
+- INSPECTING REMOTE :
+    * **git remote show <remote_name>** : Gives info about remote
+    
     
     
         
