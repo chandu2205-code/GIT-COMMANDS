@@ -73,6 +73,9 @@ This repository only contains commands related to GIT
     * **git tag -l 'v1.8.5.*'**  : Lists all tags whose name starts with v1.8.5
     * GIT uses two types of tags : annotated tag and lightweight tag
     
+- GIT BRANCHING :    
+    
+    
     
     
         
