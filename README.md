@@ -66,6 +66,12 @@ This repository only contains commands related to GIT
     * **git push <remote_name> <branch_name>** : 
 - INSPECTING REMOTE :
     * **git remote show <remote_name>** : Gives info about remote
+- TAGGING :
+    * GIT has the ability to tag specific points in history . Typically people use tag functionality to mark release points .
+    * **git tag** : This command lists all tags in alphabetical order
+    * If GIT source repo has more tags in order to search for tags we can use patterns :
+    * **git tag -l 'v1.8.5.*'**  : Lists all tags whose name starts with v1.8.5
+    * GIT uses two types of tags : annotated tag and lightweight tag
     
     
     
