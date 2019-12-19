@@ -73,7 +73,15 @@ This repository only contains commands related to GIT
     * **git tag -l 'v1.8.5.*'**  : Lists all tags whose name starts with v1.8.5
     * GIT uses two types of tags : annotated tag and lightweight tag
     
-- GIT BRANCHING :    
+- GIT ALIASES : 
+    * If we dont want to type entire text of each git commands , we can setup alias for each git command .
+    * **git config --global alias.co checkout** : Instead of typing checkout , type co which does the same
+    * **git config --global alias.br branch**
+    * **git config --global alias.ci commit**
+    * **git config --global alias.st status**
+ 
+ - GIT BRANCHING :
+    * 
     
     
     
