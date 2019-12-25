@@ -96,6 +96,7 @@ This repository only contains commands related to GIT
     * To merge changes between two branches , say merge changes present in hotfix branch (source) to master branch (destination)
     1 . **git checkout master**
     2 . **git merge hotfix** : at this stage we are present on master branch and trying to merge hotfix branch into master .
+    * Merging may result into conflicts which require resolving them manually . 
     -----------------------------------------------------------------------------------------------------------------------
     * **git branch -d `<branch-name>`** : deletes branch with given name .
     
