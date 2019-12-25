@@ -50,7 +50,9 @@ This repository only contains commands related to GIT
 - UNSTAGING STAGED FILES :
     * Lets say we added all files that are changed in our working directory using **git add .**, later on realized one of the<br>
     staged file needs to be unstaged or is not required to commit .
-    * **git reset HEAD <file_name>** 
+    * **git reset HEAD <file_name>**
+    * To unstage all staged files .
+    * **git reset**
 - TO REPLACE FILE WITH HEAD REVISION :
     * **git checkout -- path_to_file_replacement**
 - SHOWING REMOTES :
