@@ -99,6 +99,9 @@ This repository only contains commands related to GIT
     * Merging may result into conflicts which require resolving them manually . 
     -----------------------------------------------------------------------------------------------------------------------
     * **git branch -d `<branch-name>`** : deletes branch with given name .
+    * **git branch** : simple listing of our current branches .
+    * **git branch -v** : last commit on each branch .
+    * 
     
     
     
