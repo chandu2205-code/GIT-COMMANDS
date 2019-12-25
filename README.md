@@ -89,6 +89,16 @@ This repository only contains commands related to GIT
     every repository has one is that the git init command creates it by default and most people don’t bother to change it.
     * **git branch `<branch-name>`** :  creates a new pointer at the same commit you’re currently on .
     * **git checkout `<branch-name>`** : moves HEAD pointer to target branch-name .
+    * **git log --oneline --decorate** : this shows where branch pointers are pointing .
+    * **git log --oneline --decorate --graph --all** : prints history of commits and showing where our branch pointers are present .
+    * **git checkout -b `<branch-name>`** : creates and switches to new branch at same time .
+ - GIT MERGING :
+    * To merge changes between two branches , say merge changes present in hotfix branch (source) to master branch (destination)
+    1 . **git checkout master**
+    2 . **git merge hotfix** : at this stage we are present on master branch and trying to merge hotfix branch into master .
+    -----------------------------------------------------------------------------------------------------------------------
+    * **git branch -d `<branch-name>`** : deletes branch with given name .
+    
     
     
     
