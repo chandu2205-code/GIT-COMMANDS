@@ -101,7 +101,10 @@ This repository only contains commands related to GIT
     * **git branch -d `<branch-name>`** : deletes branch with given name .
     * **git branch** : simple listing of our current branches .
     * **git branch -v** : last commit on each branch .
-    * 
+    * **git fetch `<remote-name>`** : To fetch changes from remote , it doesn't merge changes
+    * **git push `<remote-name>` `<branch-name>`** : Pushes new branch to given remote
+    * To have different branch name on local and remote server use below command ::
+    * **git push `<remote-name>` `<local-branch-name>:<any-name-to-be-on-remote-server>`**
     
     
     
