@@ -105,6 +105,10 @@ This repository only contains commands related to GIT
     * **git push `<remote-name>` `<branch-name>`** : Pushes new branch to given remote
     * To have different branch name on local and remote server use below command ::
     * **git push `<remote-name>` `<local-branch-name>:<any-name-to-be-on-remote-server>`**
+    * **git branch -vv** : will provide information about all remote tracking branches
+ - DELETING REMOTE BRANCHES :
+    * **git push `<remote-name>` --delete `<branch-name>`** : this deletes specified branch from server
+ - REBASE :
     
     
     
