@@ -128,7 +128,9 @@ This repository only contains commands related to GIT
         3. The contributor pushes to their own public copy.
         4. The contributor sends the maintainer an e-mail asking them to pull changes.
         5. The maintainer adds the contributor’s repo as a remote and merges locally.
-        6. The maintainer pushes merged changes to the main repository
+        6. The maintainer pushes merged changes to the main repository .
+    * **Dictator And Lieutenants Workflow :** Refer other sources 
+    
     
     
     
