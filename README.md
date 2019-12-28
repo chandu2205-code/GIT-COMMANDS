@@ -109,6 +109,9 @@ This repository only contains commands related to GIT
  - DELETING REMOTE BRANCHES :
     * **git push `<remote-name>` --delete `<branch-name>`** : this deletes specified branch from server
  - REBASE :
+    * Consider two branches experiment and master and say we want to rebase experiment onto master branch 
+    * **git checkout experiment**
+    * **git rebase master**
     
     
     
