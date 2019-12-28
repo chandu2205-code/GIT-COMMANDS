@@ -114,9 +114,21 @@ This repository only contains commands related to GIT
     * **git rebase master**
     * [GIT REBASE ONTO](https://content.pivotal.io/blog/git-rebase-onto)
     * **git rebase --help** : Git manual for rebase
- -  SETTING UP GIT ON SERVER :
+ - SETTING UP GIT ON SERVER :
     * [GIT SETUP ON LINUX SERVER](https://dev.to/erhankilic/setting-up-your-own-git-server--26h6)
     * [BARE RESPOSITORY EXPLAINATION](https://stackoverflow.com/a/22699743/8846680)
+ - DISTRIBUTED GIT :
+    * **Centralized Workflow :** 
+        In centralized systems, there is generally a single collaboration model—the centralized workflow. One central hub,
+        or repository, can accept code, and everyone synchronizes their work to it. A number of developers are nodes—
+        consumers of that hub—and synchronize to that one place .
+    * **Integration-Manager Workflow :**
+        1. The project maintainer pushes to their public repository.
+        2. A contributor clones that repository and makes changes.
+        3. The contributor pushes to their own public copy.
+        4. The contributor sends the maintainer an e-mail asking them to pull changes.
+        5. The maintainer adds the contributor’s repo as a remote and merges locally.
+        6. The maintainer pushes merged changes to the main repository
     
     
     
