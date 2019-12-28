@@ -112,6 +112,7 @@ This repository only contains commands related to GIT
     * Consider two branches experiment and master and say we want to rebase experiment onto master branch 
     * **git checkout experiment**
     * **git rebase master**
+    * [GIT REBASE ONTO](https://content.pivotal.io/blog/git-rebase-onto)
     
     
     
