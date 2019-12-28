@@ -116,6 +116,7 @@ This repository only contains commands related to GIT
     * **git rebase --help** : Git manual for rebase
  -  SETTING UP GIT ON SERVER :
     * [GIT SETUP ON LINUX SERVER](https://dev.to/erhankilic/setting-up-your-own-git-server--26h6)
+    * [BARE RESPOSITORY EXPLAINATION](https://stackoverflow.com/a/22699743/8846680)
     
     
     
