@@ -113,6 +113,8 @@ This repository only contains commands related to GIT
     * **git checkout experiment**
     * **git rebase master**
     * [GIT REBASE ONTO](https://content.pivotal.io/blog/git-rebase-onto)
+    * **git rebase --help** : Git manual for rebase
+ -    
     
     
     
