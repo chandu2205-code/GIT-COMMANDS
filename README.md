@@ -114,7 +114,8 @@ This repository only contains commands related to GIT
     * **git rebase master**
     * [GIT REBASE ONTO](https://content.pivotal.io/blog/git-rebase-onto)
     * **git rebase --help** : Git manual for rebase
- -    
+ -  SETTING UP GIT ON SERVER :
+    * [GIT SETUP ON LINUX SERVER](https://dev.to/erhankilic/setting-up-your-own-git-server--26h6)
     
     
     
